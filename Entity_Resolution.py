@@ -1,9 +1,6 @@
 
 # coding: utf-8
 
-# In[11]:
-
-
 # pip install affinegap
 # pip install python-levenshtein
 
@@ -23,20 +20,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold
 from scipy.stats import randint as sp_randint
-
-"""
-This assignment can be done in groups of 3 students. Everyone must submit individually.
-
-Write down the UNIs of your group (if applicable)
-
-Name : Alexandra Sudomoeva
-Uni  : as5402
-
-Member 2: Elizabet Doliar, uni: ed2758
-
-Member 3: Daniel First, uni: df2450
-"""
-
 
 def get_matches(locu_train_path, foursquare_train_path, matches_train_path, locu_test_path, foursquare_test_path):
     """
