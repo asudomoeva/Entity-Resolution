@@ -5,13 +5,13 @@ Given two datasets that describe the some of the same entities, we need to ident
 
 ## Data
 The data and labels for training are in 'train' folder including the following:
-foursquare_train.json
-locu_train.json
-matches_train.csv
+1. foursquare_train.json
+2. locu_train.json
+3. matches_train.csv
 
 The data for test validation is 'test' in folder including the following:
-foursquare_test.json
-locu_test.json
+1. foursquare_test.json
+2. locu_test.json
 
 The 'json' files contain a json-encoded list of venue attribute dictionaries. The 'csv' file contains two columns, 'locu_id' and 'foursquare_id', which reference the venue 'id' fields that match in each dataset.
 
