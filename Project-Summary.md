@@ -30,4 +30,10 @@ The described above approach allowed us to achieve relatively good results with 
 2. Recall: **99.7**
 3. F1 score: **99.3**
 
-## Final Test Score - 96.8
+### Final Test Score - 96.8
+
+## Avoiding Pairwise Comparison
+
+We tested a number of different approaches for reducing pairwise comparison including filtering out all the pairs that have a difference between latitude and longitude more than 0.06, assuming perfect match for pairs when coordinates do match and filtering out all the other pairs associated with those ids, as well as filtering out the perfect matching when the phone number aligns. Nonetheless, after comparing the scores for different models, we consciously decided not to avoid pairwise comparison in the effort to achieve a better score through a random forest model. In the future, if we had to avoid the comparison with a much bigger dataset, we would use perfect phone number matching as a way to to filter out those pairs and significantly decrease the final dataframe size.
+
+## Feature Importance
