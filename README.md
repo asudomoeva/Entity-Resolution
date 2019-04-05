@@ -1,2 +1,1 @@
-# homework-2-asudomoeva
-# homework-2-asudomoeva
+# Solving Entity Resolution for Restaurant Data
